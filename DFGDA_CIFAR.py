@@ -57,15 +57,6 @@ valid_loader = DataLoader(valid_data, batch_size=1024, shuffle=False)
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-#CNN model for DF-GDA
-model_gda = CNN().to(device)
-
-#CNN model for SGD
-model_sgd = CNN().to(device)
-
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-
 #DF-GDA Optimizer
 class GDAOptimizer_frac:
     def __init__(self, params, num_states=1014, initial_temp=1.0, initial_rate=0.992, f_min=1.0, f_max=1.0, window_size=10):
@@ -311,8 +302,13 @@ loss_fn = nn.CrossEntropyLoss()
 
 sampler = UniformSampler(minval=-0.5, maxval=0.5, cuda=torch.cuda)
 
+#CNN model for DF-GDA
 model_GDA = CNN().to(device)
+
+#CNN model for SGD
 model_SGD = CNN().to(device)
+
+#CNN model for Simulated Annealing
 model_SA= CNN().to(device)
 
 optimizer_SGD = torch.optim.SGD(model_SGD.parameters(), lr=0.001)
