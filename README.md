@@ -38,7 +38,7 @@ For the **CIFAR** dataset, run this command:
 
 For the **USPS** dataset, run this command:
 
-```DFGDA_UPS.py```
+```DFGDA_USPS.py```
 
 For the **SVHN** dataset, run this command:
 
