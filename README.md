@@ -21,6 +21,7 @@ You can install the latest version of Pytorch/torchvision. We recommend installi
 ```conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch``` 
 
 **Preparing data:** 
+
 Most datasets (MINST, CIFAR-10, UPS, and SVHN) will be **automatically downloaded** through the torchvision datasets library. For the MINST-M dataset, please download it from [here](https://github.com/mashaan14/MNIST-M) and add the dataset root folder to the ```./data/```.
 
 **Running the models:**
