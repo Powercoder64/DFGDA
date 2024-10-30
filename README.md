@@ -22,11 +22,11 @@ You can install the latest version of Pytorch/torchvision. We recommend installi
 
 **Preparing data:** 
 
-Most datasets (MINST, CIFAR-10, UPS, and SVHN) will be **automatically downloaded** through the torchvision datasets library. For the MINST-M dataset, please download it from [here](https://github.com/mashaan14/MNIST-M) and add the dataset root folder to the ```./data/```.
+Most datasets (MINST, CIFAR-10, USPS, and SVHN) will be **automatically downloaded** through the torchvision datasets library. For the MINST-M dataset, please download it from [here](https://github.com/mashaan14/MNIST-M) and add the dataset root folder to the ```./data/```.
 
 **Running the models:**
 
-We provided the source codes to compare the proposed DFGDA with SGD based on all the datasets: MINST, CIFAR-10, UPS, SVHN, and MINST-M.
+We provided the source codes to compare the proposed DFGDA with SGD based on all the datasets: MINST, CIFAR-10, USPS, SVHN, and MINST-M.
 
 For the **MINST** dataset, run this command:
 
@@ -36,7 +36,7 @@ For the **CIFAR** dataset, run this command:
 
 ```DFGDA_CIFAR.py```
 
-For the **UPS** dataset, run this command:
+For the **USPS** dataset, run this command:
 
 ```DFGDA_UPS.py```
 
