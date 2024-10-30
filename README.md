@@ -1,2 +1,50 @@
-# DFGDA
-Repository for DFGDA
+# Repository for DFGDA
+
+
+**Installing dependencies:**
+
+Prerequisites:    
+- PyTorch > 1.7   
+- torchvision   
+- numpy   
+- collections
+
+Create a new Conda environment:
+
+```conda create -n DFGDA python=3.7```   
+```conda activate DFGDA```
+
+Install the libraries:  
+
+You can install the latest version of Pytorch/torchvision. We recommend installing this version to replicate our environment:
+
+```conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch``` 
+
+**Preparing data:** 
+Most datasets (MINST, CIFAR-10, UPS, and SVHN) will be **automatically downloaded** through the torchvision datasets library. For the MINST-M dataset, please download it from [here](https://github.com/mashaan14/MNIST-M) and add the dataset root folder to the ```./data/```.
+
+**Running the models:**
+
+We provided the source codes to compare the proposed DFGDA with SGD based on all the datasets: MINST, CIFAR-10, UPS, SVHN, and MINST-M.
+
+For the **MINST** dataset, run this command:
+```python DFGDA_MINST.py```
+
+For the **CIFAR** dataset, run this command:
+```DFGDA_CIFAR.py```
+
+For the **UPS** dataset, run this command:
+```DFGDA_UPS.py```
+
+For the **SVHN** dataset, run this command:
+```python DFGDA_SVHN.py```
+
+For the **MINST-M** dataset, run this command:
+```python DFGDA_MINSTM.py```
+
+After running each code, we will train with DFGDA first and SGD next. It will print both training and validation losses per epoch. 
+
+
+
+
+
