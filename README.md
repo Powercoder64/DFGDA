@@ -22,6 +22,8 @@ You can install the latest version of Pytorch/torchvision. We recommend installi
 
 **Preparing data:** 
 
+First, download this repository and copy it to your desired directory. 
+
 Most datasets (MINST, CIFAR-10, USPS, and SVHN) will be **automatically downloaded** through the torchvision datasets library. For the MINST-M dataset, please download it from [here](https://github.com/mashaan14/MNIST-M) and add the dataset root folder to the ```./data/```.
 
 **Running the models:**
