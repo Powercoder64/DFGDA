@@ -3,7 +3,7 @@
 **Accepted npj Artificial Intelligence paper: A Dynamic Fractional Generalized Deterministic Annealing for Rapid Convergence in Deep Learning Optimization**
 
 
-![alt text]([http://url/to/img.png](https://github.com/Powercoder64/DFGDA/blob/main/Imgs/Fig_1.png))
+![alt text](https://github.com/Powercoder64/DFGDA/blob/main/Imgs/Fig_1.png)
 
 
 **Installing dependencies:**
