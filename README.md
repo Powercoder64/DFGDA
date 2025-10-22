@@ -1,6 +1,6 @@
 # Repository for DF-GDA
 
-**Accepted npj Artificial Intelligence paper: A Dynamic Fractional Generalized Deterministic Annealing for Rapid Convergence in Deep Learning Optimization**
+**[Accepted npj Artificial Intelligence paper: A Dynamic Fractional Generalized Deterministic Annealing for Rapid Convergence in Deep Learning Optimization](https://www.nature.com/articles/s44387-025-00025-7)**
 
 
 ![alt text](https://github.com/Powercoder64/DFGDA/blob/main/Imgs/Fig_1.png)
